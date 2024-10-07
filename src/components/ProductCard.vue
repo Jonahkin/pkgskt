@@ -1,12 +1,14 @@
 <template>
-    <section class="z-10 text-color1 w-full">
+    <section class="z-10 text-color1 w-full px-4">
         <div
-            class="flex flex-col space-y-6 mx-auto w-full max-w-sm justify-center items-center rounded-md shadow-lg bg-color3 p-4 hover:bg-opacity-85"
+            class="flex flex-col space-y-6 mx-auto w-full max-w-sm justify-center items-center rounded-md shadow-lg bg-color3 hover:bg-opacity-85"
         >
             <img :src="currentPackage.image" alt="" class="w-full" />
-            <p class="text-lg font-bold">{{ currentPackage.productName }}</p>
+            <p class="text-lg font-bold pl-4">
+                {{ currentPackage.productName }}
+            </p>
             <div
-                class="flex flex-col space-y-6 justify-start items-start w-full"
+                class="flex flex-col space-y-6 justify-start items-start w-full pl-4"
             >
                 <div
                     class="flex flex-col space-y-4"
@@ -21,7 +23,7 @@
                 </div>
             </div>
             <p
-                class="flex justify-center items-center space-x-4 w-full mx-auto pt-6"
+                class="flex justify-center items-center space-x-4 w-full mx-auto pt-4"
             >
                 <img
                     src="../assets/static/location.png"
@@ -31,7 +33,7 @@
                     currentPackage.currentLocation
                 }}</span>
             </p>
-            <small class="pt-2">{{ currentPackage.trackingID }}</small>
+            <small class="p-2">{{ currentPackage.trackingID }}</small>
         </div>
     </section>
 </template>
