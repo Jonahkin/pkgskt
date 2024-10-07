@@ -4,6 +4,7 @@
             "productName": "Smartphone",
             "trackingID": "ABC123456789",
             "currentLocation": "New York Distribution Center",
+            "image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg?ga=GA1.2.1414772317.1728213936&semt=ais_hybrid",
             "status": [
                 {
                     "step": "Order Received",
@@ -48,6 +49,7 @@
             "productName": "Laptop",
             "trackingID": "XYZ987654321",
             "currentLocation": "Los Angeles Distribution Center",
+            "image": "https://img.freepik.com/free-photo/open-laptop-with-office-supplies_23-2149461764.jpg?t=st=1728317714~exp=1728321314~hmac=f5f91bfa80f535c50a510353646ba6883c4f5ac54abddfd17c4fc367b99b0097&w=360",
             "status": [
                 {
                     "step": "Order Received",
@@ -92,6 +94,7 @@
             "productName": "Wireless Earbuds",
             "trackingID": "LMN1122334455",
             "currentLocation": "Chicago Processing Center",
+            "image": "https://img.freepik.com/free-photo/wireless-earphones-white-surface_23-2147999044.jpg?t=st=1728317714~exp=1728321314~hmac=9c0c57a8ec23b70eebaf772402b9fd1bb5981b94c7a991cb82a462bd3505b46d&w=360",
             "status": [
                 {
                     "step": "Order Received",
@@ -110,24 +113,6 @@
                     "date": "2024-10-02",
                     "time": "10:15 AM",
                     "location": "Chicago Processing Center"
-                },
-                {
-                    "step": "In Transit",
-                    "date": "2024-10-03",
-                    "time": "11:45 AM",
-                    "location": "En Route to Customer"
-                },
-                {
-                    "step": "Out for Delivery",
-                    "date": "2024-10-04",
-                    "time": "8:30 AM",
-                    "location": "Chicago Processing Center"
-                },
-                {
-                    "step": "Delivered",
-                    "date": "2024-10-04",
-                    "time": "12:00 PM",
-                    "location": "Customer's Address"
                 }
             ],
             "estimatedDeliveryDate": "2024-10-04"
@@ -136,6 +121,7 @@
             "productName": "Smartwatch",
             "trackingID": "OPQ6677889900",
             "currentLocation": "Miami Dispatch Center",
+            "image": "https://img.freepik.com/free-photo/flat-lay-arrangement-smartwatch-with-pastel-backdrop_23-2148483810.jpg?t=st=1728317714~exp=1728321314~hmac=798a21a8dc7b4e2211780ac7e08e27d3c63ad9ae85f171f1b88b18b36baae29e&w=360",
             "status": [
                 {
                     "step": "Order Received",

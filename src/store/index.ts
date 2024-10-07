@@ -33,7 +33,7 @@ export default createStore({
             setTimeout(() => {
                 commit("SET_CURRENT_PACKAGE", res);
                 commit("SET_LOADING_STATUS", false);
-            }, Math.floor(Math.random() * 10) * 2000);
+            }, Math.floor(Math.random() * 5 + 5) * 1000);
         },
     },
     modules: {},

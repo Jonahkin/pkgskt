@@ -3,6 +3,7 @@
         <div
             class="flex flex-col space-y-6 mx-auto w-full max-w-sm justify-center items-center rounded-md shadow-lg bg-color3 p-4 hover:bg-opacity-85"
         >
+            <img :src="currentPackage.image" alt="" class="w-full" />
             <p class="text-lg font-bold">{{ currentPackage.productName }}</p>
             <div
                 class="flex flex-col space-y-6 justify-start items-start w-full"
@@ -13,13 +14,23 @@
                     :key="i"
                 >
                     <p class="flex space-x-4">
-                        <span class="font-bold">&CircleDot;</span>
+                        <img class="w-6" src="../assets/static/point.png" />
                         <span class="font-bold">{{ p.step }}</span>
                     </p>
-                    <p class="font-bold pl-8">{{ p.date }} {{ p.time }}</p>
+                    <p class="font-medium pl-8">{{ p.date }} {{ p.time }}</p>
                 </div>
             </div>
-            <p class="flex space-x-4">{{ currentPackage.currentLocation }}</p>
+            <p
+                class="flex justify-center items-center space-x-4 w-full mx-auto pt-6"
+            >
+                <img
+                    src="../assets/static/location.png"
+                    alt=""
+                    class="w-7"
+                /><span class="font-bold">{{
+                    currentPackage.currentLocation
+                }}</span>
+            </p>
             <small class="pt-2">{{ currentPackage.trackingID }}</small>
         </div>
     </section>
