@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./poppins-v21-latin-regular.woff2") format("woff2");
+}
+
+* {
+    font-family: "Poppins";
+}
+
+html {
+    /* background: linear-gradient(45deg, #3e5c6b, #2f4a56, #243642, #1a2b34); */
+}
+
+body {
+    background: #e4e4e4;
+}
+
+.delivery-background {
+    position: relative;
+    background-image: url("./static/delivery.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.delivery-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}

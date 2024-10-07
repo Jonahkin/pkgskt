@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lint:watch": "nodemon --watch src --ext js,ts,vue,css --exec \"yarn lint --fix\"",
+    "compile": "npx tailwindcss -i ./src/assets/input.css -o ./src/assets/styles.css --watch"
   },
   "dependencies": {
     "core-js": "^3.8.3",

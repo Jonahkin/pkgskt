@@ -1,0 +1,46 @@
+<template>
+    <section class="z-10 text-color1 w-full">
+        <div
+            class="flex flex-col space-y-6 mx-auto w-full max-w-sm justify-center items-center rounded-md shadow-lg bg-color3 p-4 hover:bg-opacity-85"
+        >
+            <p class="text-lg font-bold">{{ currentPackage.productName }}</p>
+            <div
+                class="flex flex-col space-y-6 justify-start items-start w-full"
+            >
+                <div
+                    class="flex flex-col space-y-4"
+                    v-for="(p, i) in currentPackage.status"
+                    :key="i"
+                >
+                    <p class="flex space-x-4">
+                        <span class="font-bold">&CircleDot;</span>
+                        <span class="font-bold">{{ p.step }}</span>
+                    </p>
+                    <p class="font-bold pl-8">{{ p.date }} {{ p.time }}</p>
+                </div>
+            </div>
+            <p class="flex space-x-4">{{ currentPackage.currentLocation }}</p>
+            <small class="pt-2">{{ currentPackage.trackingID }}</small>
+        </div>
+    </section>
+</template>
+
+<script>
+import { computed } from "vue";
+import { useStore } from "vuex";
+
+export default {
+    name: "ProductCard",
+    setup() {
+        const store = useStore();
+
+        const currentPackage = computed(
+            () => store.getters.GET_CURRENT_PACKAGE
+        );
+
+        return {
+            currentPackage: currentPackage.value[0],
+        };
+    },
+};
+</script>
