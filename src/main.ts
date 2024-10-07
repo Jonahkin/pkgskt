@@ -3,7 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-import "tw-elements";
+// import "tw-elements";
 
 import "./assets/styles.css";
 
