@@ -79,9 +79,14 @@
 
 <script>
 import { Collapse, Dropdown, initTWE } from "tw-elements";
+import { onMounted } from "vue";
 
-initTWE({ Collapse, Dropdown });
 export default {
     name: "NavBar",
+    setup() {
+        onMounted(() => {
+            initTWE({ Collapse, Dropdown });
+        });
+    },
 };
 </script>
