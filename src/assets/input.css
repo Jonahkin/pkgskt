@@ -45,3 +45,315 @@ body {
     ); /* Black overlay with 50% opacity */
     z-index: 1; /* Place the overlay above the background */
 }
+
+.welcome-background {
+    position: relative;
+    background-image: url("./static/welcome-sec.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.welcome-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}
+
+.about-background {
+    position: relative;
+    background-image: url("./static/about.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.about-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}
+
+.aboutt-background {
+    position: relative;
+    background-image: url("./static/aboutt.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.aboutt-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}
+
+.persep-background {
+    position: relative;
+    background-image: url("./static/persep.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.persep-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}
+
+.borders-background {
+    position: relative;
+    background-image: url("./static/borders.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.borders-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}
+
+.worldwide-background {
+    position: relative;
+    background-image: url("./static/worldwide.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.worldwide-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}
+
+.package-background {
+    position: relative;
+    background-image: url("./static/package.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.package-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}
+
+.service-background {
+    position: relative;
+    background-image: url("./static/service.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.service-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}
+
+.phone-background {
+    position: relative;
+    background-image: url("./static/phone.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.phone-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}
+
+.how-background {
+    position: relative;
+    background-image: url("./static/how.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.how-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}
+
+.review-background {
+    position: relative;
+    background-image: url("./static/review.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.review-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}
+
+.cta-background {
+    position: relative;
+    background-image: url("./static/cta.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.cta-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}
+
+.footer-background {
+    position: relative;
+    background-image: url("./static/footer.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.footer-background::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    ); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place the overlay above the background */
+}

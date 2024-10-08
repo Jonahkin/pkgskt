@@ -1,6 +1,6 @@
 <template>
     <section
-        class="flex flex-col justify-start items-center px-6 pt-10 pb-6 delivery-background"
+        class="flex flex-col justify-start items-center px-6 pt-10 pb-6 persep-background"
     >
         <section
             class="flex flex-col space-y-8 justify-center items-center text-color1 z-10"
