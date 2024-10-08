@@ -13,18 +13,34 @@
     >
         <NavBar></NavBar>
         <div
-            class="flex flex-col justify-start items-center space-y-4 delivery-background pb-6 flex-grow"
+            class="scroll-container h-screen snap-y snap-mandatory overflow-y-scroll no-scrollbar"
         >
-            <TrackingInput></TrackingInput>
-            <ProductCard v-if="currentPackage.length > 0"></ProductCard>
+            <section
+                class="w-full h-screen flex items-center justify-center snap-start"
+            >
+                <TrackingInput
+                    @validResponse="scrollToProductCard"
+                ></TrackingInput>
+            </section>
+            <section
+                class="w-full h-screen flex items-center justify-start pt-6 snap-start"
+                v-if="currentPackage.length > 0"
+                ref="productCardSection"
+            >
+                <ProductCard v-if="currentPackage.length > 0"></ProductCard>
+            </section>
+            <section
+                class="w-full h-screen flex items-center justify-center snap-start"
+            >
+                <FooterSec class="mx-auto w-full z-10"></FooterSec>
+            </section>
         </div>
-        <FooterSec class="mx-auto w-full"></FooterSec>
     </div>
     <LoaderDiv v-if="loadingStatus"></LoaderDiv>
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, onMounted } from "vue";
+import { computed, defineComponent, onMounted, nextTick, ref } from "vue";
 import NavBar from "@/components/NavBar.vue";
 import FooterSec from "@/components/FooterSec.vue";
 import TrackingInput from "@/components/TrackingInput.vue";
@@ -43,6 +59,7 @@ export default defineComponent({
     },
     setup() {
         const store = useStore();
+        const productCardSection = ref<HTMLElement | null>(null);
 
         const loadingStatus = computed(() => store.getters.GET_LOADING_STATUS);
         const currentPackage = computed(
@@ -53,9 +70,23 @@ export default defineComponent({
             store.commit("SET_CURRENT_PACKAGE", []);
         });
 
+        // Function to scroll to the ProductCard section
+        const scrollToProductCard = () => {
+            nextTick(() => {
+                if (productCardSection.value) {
+                    productCardSection.value.scrollIntoView({
+                        behavior: "smooth", // Smooth scroll behavior
+                        block: "start", // Align to the top of the viewport
+                    });
+                }
+            });
+        };
+
         return {
             loadingStatus,
             currentPackage,
+            productCardSection,
+            scrollToProductCard,
         };
     },
 });
@@ -69,5 +100,23 @@ export default defineComponent({
 .fade-enter-from,
 .fade-leave-to {
     opacity: 0;
+}
+
+.scroll-container {
+    @apply snap-y snap-mandatory overflow-y-scroll;
+    /* Enables vertical scroll snapping */
+}
+
+/* Hide the scrollbar for all browsers */
+.no-scrollbar {
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Edge, and Opera */
 }
 </style>

@@ -13,7 +13,6 @@
         "
     >
         <NavBar></NavBar>
-        <!-- Main scrollable container with scroll snapping behavior and hidden scrollbar -->
         <div
             class="scroll-container h-screen snap-y snap-mandatory overflow-y-scroll no-scrollbar"
         >
@@ -21,6 +20,16 @@
                 class="w-full h-screen flex items-center justify-center snap-start"
             >
                 <WelcomeSec></WelcomeSec>
+            </section>
+            <section
+                class="w-full h-screen flex items-center justify-center snap-start"
+            >
+                <AboutUs></AboutUs>
+            </section>
+            <section
+                class="w-full h-screen flex items-center justify-center snap-start"
+            >
+                <AboutUsT></AboutUsT>
             </section>
             <section
                 class="w-full h-screen flex items-center justify-center snap-start"
@@ -90,6 +99,8 @@ import WithoutBorders from "@/components/WithoutBorders.vue";
 import WorldwideEcommerce from "@/components/WorldwideEcommerce.vue";
 import ForYou from "@/components/ForYou.vue";
 import FriendlyService from "@/components/FriendlyService.vue";
+import AboutUs from "@/components/AboutUs.vue";
+import AboutUsT from "@/components/AboutUsT.vue";
 
 export default defineComponent({
     name: "HomeView",
@@ -106,6 +117,8 @@ export default defineComponent({
         WorldwideEcommerce,
         ForYou,
         FriendlyService,
+        AboutUs,
+        AboutUsT,
     },
 });
 </script>

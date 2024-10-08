@@ -1,5 +1,11 @@
 <template>
-    <section class="flex flex-col space-y-4 text-white pt-4">
+    <section class="flex flex-col space-y-6 text-white pt-4">
+        <section class="flex justify-center items-center space-x-3 py-2">
+            <img src="../assets/static/facebook.png" alt="" class="w-7" />
+            <img src="../assets/static/instagram.png" alt="" class="w-7" />
+            <img src="../assets/static/linkedin.png" alt="" class="w-7" />
+            <img src="../assets/static/twitter.png" alt="" class="w-7" />
+        </section>
         <section
             class="flex flex-col text-white justify-start items-start mx-auto space-y-5"
         >

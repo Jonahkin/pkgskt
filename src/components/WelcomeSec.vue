@@ -10,7 +10,7 @@
             </p>
             <p class="font-medium text-lg text-center px-6 text-wrap">
                 The ultimate delivery solution for both business and everyday
-                life
+                life.
             </p>
             <router-link
                 class="rounded-lg px-4 py-2 outline-none border-none bg-color1 text-color4 hover:bg-opacity-85"

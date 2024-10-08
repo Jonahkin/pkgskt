@@ -1,7 +1,7 @@
 <template>
-    <section class="z-10 text-color1 w-full px-4">
+    <section class="z-10 text-color1 w-full pt-8 px-4">
         <div
-            class="flex flex-col space-y-6 mx-auto w-full max-w-sm justify-center items-center rounded-md shadow-lg bg-color3 hover:bg-opacity-85"
+            class="flex flex-col space-y-6 mx-auto w-full max-w-sm justify-start items-center rounded-md shadow-lg bg-color3 hover:bg-opacity-85"
         >
             <img :src="currentPackage.image" alt="" class="w-full" />
             <p class="text-lg font-bold pl-4">

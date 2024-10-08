@@ -26,19 +26,29 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref, watch, computed } from "vue";
 import { useStore } from "vuex";
 
 export default {
     name: "TrackingInput",
-    setup() {
+    emits: ["validResponse"],
+    setup(props, { emit }) {
         const store = useStore();
+
+        const currentPackage = computed(() => store.state.currentPackage);
+
         const trackingID = ref("");
 
         const trackPackage = () => {
-            if (String(trackingID.value).trim() == "") return;
+            if (String(trackingID.value).trim() === "") return;
             store.dispatch("getPackages", String(trackingID.value).trim());
         };
+
+        watch(currentPackage, (newValue) => {
+            if (newValue && newValue.length > 0) {
+                emit("validResponse");
+            }
+        });
 
         return {
             trackPackage,
