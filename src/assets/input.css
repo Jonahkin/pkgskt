@@ -31,8 +31,8 @@ body {
 }
 
 .delivery-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -42,8 +42,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .welcome-background {
@@ -55,8 +55,8 @@ body {
 }
 
 .welcome-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -66,8 +66,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .about-background {
@@ -79,8 +79,8 @@ body {
 }
 
 .about-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -90,8 +90,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .aboutt-background {
@@ -103,8 +103,8 @@ body {
 }
 
 .aboutt-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -114,8 +114,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .persep-background {
@@ -127,8 +127,8 @@ body {
 }
 
 .persep-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -138,8 +138,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .borders-background {
@@ -151,8 +151,8 @@ body {
 }
 
 .borders-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -162,8 +162,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .worldwide-background {
@@ -175,8 +175,8 @@ body {
 }
 
 .worldwide-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -186,8 +186,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .package-background {
@@ -199,8 +199,8 @@ body {
 }
 
 .package-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -210,8 +210,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .service-background {
@@ -223,8 +223,8 @@ body {
 }
 
 .service-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -234,8 +234,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .phone-background {
@@ -247,8 +247,8 @@ body {
 }
 
 .phone-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -258,8 +258,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .how-background {
@@ -271,8 +271,8 @@ body {
 }
 
 .how-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -282,8 +282,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .review-background {
@@ -295,8 +295,8 @@ body {
 }
 
 .review-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -306,8 +306,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .cta-background {
@@ -319,8 +319,8 @@ body {
 }
 
 .cta-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -330,8 +330,8 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
 }
 
 .footer-background {
@@ -343,8 +343,8 @@ body {
 }
 
 .footer-background::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute; /* Positioning it absolutely */
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -354,6 +354,54 @@ body {
         43,
         52,
         0.8
-    ); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay above the background */
+    );
+    z-index: 1;
+}
+
+.tracking-background {
+    position: relative;
+    background-image: url("./static/tracking.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.tracking-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    );
+    z-index: 1;
+}
+
+.product-background {
+    position: relative;
+    background-image: url("./static/product.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.product-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+        26,
+        43,
+        52,
+        0.8
+    );
+    z-index: 1;
 }

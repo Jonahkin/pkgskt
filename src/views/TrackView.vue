@@ -13,7 +13,7 @@
     >
         <NavBar></NavBar>
         <div
-            class="scroll-container h-screen snap-y snap-mandatory overflow-y-scroll no-scrollbar"
+            class="scroll-container h-screen snap-y snap-mandatory overflow-y-auto no-scrollbar"
         >
             <section
                 class="w-full h-screen flex items-center justify-center snap-start"
@@ -23,11 +23,13 @@
                 ></TrackingInput>
             </section>
             <section
-                class="w-full h-screen flex items-center justify-start pt-6 snap-start"
+                class="w-full flex-grow flex items-start justify-center pt-6 snap-start"
                 v-if="currentPackage.length > 0"
                 ref="productCardSection"
             >
-                <ProductCard v-if="currentPackage.length > 0"></ProductCard>
+                <div class="flex flex-col items-center w-full">
+                    <ProductCard v-if="currentPackage.length > 0"></ProductCard>
+                </div>
             </section>
             <section
                 class="w-full h-screen flex items-center justify-center snap-start"
@@ -36,6 +38,7 @@
             </section>
         </div>
     </div>
+
     <LoaderDiv v-if="loadingStatus"></LoaderDiv>
 </template>
 
