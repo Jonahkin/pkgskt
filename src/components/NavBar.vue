@@ -42,15 +42,36 @@
                 class="list-style-none me-auto flex flex-col ps-0 lg:flex-row lg:items-center"
                 data-twe-navbar-nav-ref
             >
-                <li class="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
-                    <a
-                        class="text-color1 transition duration-200 hover:text-color1 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-                        href="#"
-                        data-twe-nav-link-ref
-                        >Dashboard</a
-                    >
+                <li
+                    class="mb-4 flex flex-col space-y-2 lg:mb-0 lg:pe-2"
+                    data-twe-nav-item-ref
+                >
+                    <router-link
+                        class="text-color1 transition duration-200 font-medium hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
+                        to="/"
+                        >Shopping
+                    </router-link>
+                    <router-link
+                        class="text-color1 transition duration-200 font-medium hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
+                        to="/"
+                        >Who we are
+                    </router-link>
+                    <router-link
+                        class="text-color1 transition duration-200 font-medium hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
+                        to="/"
+                        >Career
+                    </router-link>
+                    <router-link
+                        class="text-color1 transition duration-200 font-medium hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
+                        to="/"
+                        >Insights
+                    </router-link>
+                    <router-link
+                        class="text-color1 transition duration-200 font-medium hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
+                        to="/"
+                        >Contacts
+                    </router-link>
                 </li>
-                <!-- Add more nav items here -->
             </ul>
         </div>
     </nav>

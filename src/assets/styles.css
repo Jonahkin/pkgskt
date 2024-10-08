@@ -2116,6 +2116,10 @@ body {
   color: rgb(226 241 231 / var(--tw-text-opacity));
 }
 
+.hover\:text-opacity-90:hover {
+  --tw-text-opacity: 0.9;
+}
+
 .hover\:no-underline:hover {
   text-decoration-line: none;
 }
