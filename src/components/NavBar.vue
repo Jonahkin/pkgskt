@@ -39,7 +39,7 @@
             data-twe-collapse-item
         >
             <ul
-                class="list-style-none me-auto flex flex-col ps-0 lg:flex-row lg:items-center"
+                class="list-style-none me-auto flex flex-col ps-0 lg:flex-row lg:items-center lg:px-3"
                 data-twe-navbar-nav-ref
             >
                 <li
@@ -47,27 +47,47 @@
                     data-twe-nav-item-ref
                 >
                     <router-link
-                        class="text-color1 transition duration-200 font-bold hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
+                        class="text-color1 transition duration-200 font-bold text-nowrap hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
                         to="/"
                         >Shopping
                     </router-link>
+                </li>
+                <li
+                    class="mb-4 flex flex-col justify-center items-center space-y-2 lg:mb-0 lg:pe-2"
+                    data-twe-nav-item-ref
+                >
                     <router-link
-                        class="text-color1 transition duration-200 font-bold hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
+                        class="text-color1 transition duration-200 font-bold text-nowrap hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
                         to="/"
                         >Who we are
                     </router-link>
+                </li>
+                <li
+                    class="mb-4 flex flex-col justify-center items-center space-y-2 lg:mb-0 lg:pe-2"
+                    data-twe-nav-item-ref
+                >
                     <router-link
-                        class="text-color1 transition duration-200 font-bold hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
+                        class="text-color1 transition duration-200 font-bold text-nowrap hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
                         to="/"
                         >Career
                     </router-link>
+                </li>
+                <li
+                    class="mb-4 flex flex-col justify-center items-center space-y-2 lg:mb-0 lg:pe-2"
+                    data-twe-nav-item-ref
+                >
                     <router-link
-                        class="text-color1 transition duration-200 font-bold hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
+                        class="text-color1 transition duration-200 font-bold text-nowrap hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
                         to="/"
                         >Insights
                     </router-link>
+                </li>
+                <li
+                    class="mb-4 flex flex-col justify-center items-center space-y-2 lg:mb-0 lg:pe-2"
+                    data-twe-nav-item-ref
+                >
                     <router-link
-                        class="text-color1 transition duration-200 font-bold hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
+                        class="text-color1 transition duration-200 font-bold text-nowrap hover:text-opacity-90 hover:ease-in-out focus:text-color1 active:text-color1 motion-reduce:transition-none lg:px-2"
                         to="/"
                         >Contacts
                     </router-link>
