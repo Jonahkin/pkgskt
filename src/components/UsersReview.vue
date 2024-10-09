@@ -1,6 +1,6 @@
 <template>
     <section
-        class="flex flex-col justify-center items-center px-6 review-background"
+        class="flex flex-col justify-center items-center w-full px-6 review-background"
     >
         <div
             class="flex flex-col space-y-4 justify-center px-4 items-center text-color1 z-10"

@@ -1,6 +1,6 @@
 <template>
     <section
-        class="flex flex-col justify-center items-center px-6 cta-background"
+        class="flex flex-col justify-center items-center w-full px-6 cta-background"
     >
         <div
             class="flex flex-col space-y-6 justify-center px-4 py-6 items-center text-color1 z-10"
