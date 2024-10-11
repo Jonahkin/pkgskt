@@ -12,13 +12,13 @@
                     "time": "10:00 AM",
                     "location": "Warehouse Store"
                 },
-{
+                {
                     "step": "Processed",
                     "date": "2024-10-05",
                     "time": "2:30 PM",
                     "location": "Warehouse Store"
                 },
- {
+                {
                     "step": "Shipped",
                     "date": "2024-10-06",
                     "time": "4:00 PM",
