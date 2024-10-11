@@ -1,4 +1,4 @@
-{
+,{
     "trackingInformation": [
         {
             "productName": "Spell package",
@@ -11,7 +11,7 @@
                     "date": "2024-10-02",
                     "time": "10:00 AM",
                     "location": "Warehouse Store"
-                }
+                },
 {
                     "step": "Processed",
                     "date": "2024-10-05",
