@@ -28,11 +28,17 @@
 						"time": "8:45 AM",
 						"location": "En Route to Distribution Center"
 					},
-						{
+					{
 						"step": "Delay at custom center",
 						"date": "2024-10-15",
 						"time": "2:36 PM",
 						"location": "Warehouse Store Poland"
+                                        {
+						"step": "In Transit",
+						"date": "2024-11-01",
+						"time": "8:00 AM",
+						"location": "En Route ro Destination Center"
+					},
 					}
 					
 				],
