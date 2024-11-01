@@ -28,6 +28,18 @@
 					"time": "8:45 AM",
 					"location": "En Route to Distribution Center"
 				},
+                                {
+					"step": "Delay at Custom Center",
+					"date": "2024-10-15",
+					"time": "2:36 PM",
+					"location": "En Route to Distribution Center"
+				},
+                                {
+					"step": "In Transit",
+					"date": "2024-11-01",
+					"time": "8:00 AM",
+					"location": "En route to Destination Center"
+				},
 				]
 
 				"estimatedDeliveryDate": "2024-11-10"
