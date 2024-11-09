@@ -59,19 +59,19 @@
         },
         {
           "step": "Processed",
-          "date": "2024-10-08",
+          "date": "2024-11-08",
           "time": "2:30 PM",
           "location": "Warehouse Store"
         },
         {
           "step": "Shipped",
-          "date": "2024-10-08",
+          "date": "2024-11-08",
           "time": "4:00 PM",
           "location": "New York Warehouse"
         },
         {
           "step": "In Transit",
-          "date": "2024-10-07",
+          "date": "2024-11-08",
           "time": "8:45 AM",
           "location": "En Route to Distribution Center"
         }
