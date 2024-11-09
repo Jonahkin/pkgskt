@@ -77,38 +77,39 @@
         }
       ],
       "estimatedDeliveryDate": "2024-11-10"
-      }
-      ]
-      },
-{
-	"productName": "Spell package",
-	"trackingID": "UTE658399244",
-	"currentLocation": "En-Route",
-	"image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg?ga=GA1.2.1414772317.1728213936&semt=ais_hybrid",
-	"status": [{
-			"step": "Order Received",
-			"date": "2024-11-07",
-			"time": "10:00 AM",
-			"location": "Warehouse Store"
-		},
-		{
-			"step": "Processed",
-			"date": "2024-11-08",
-			"time": "2:30 PM",
-			"location": "Warehouse Store"
-		},
-		{
-			"step": "Shipped",
-			"date": "2024-11-08",
-			"time": "4:00 PM",
-			"location": "New York Warehouse"
-		},
-		{
-			"step": "In Transit",
-			"date": "2024-11-08",
-			"time": "8:45 AM",
-			"location": "En Route to Distribution Center"
-		}
-	],
-	"estimatedDeliveryDate": "2024-11-10"
+    },
+    {
+      "productName": "Spell package",
+      "trackingID": "UTE658399244",
+      "currentLocation": "En-Route",
+      "image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg?ga=GA1.2.1414772317.1728213936&semt=ais_hybrid",
+      "status": [
+        {
+          "step": "Order Received",
+          "date": "2024-11-07",
+          "time": "10:00 AM",
+          "location": "Warehouse Store"
+        },
+        {
+          "step": "Processed",
+          "date": "2024-11-08",
+          "time": "2:30 PM",
+          "location": "Warehouse Store"
+        },
+        {
+          "step": "Shipped",
+          "date": "2024-11-08",
+          "time": "4:00 PM",
+          "location": "New York Warehouse"
+        },
+        {
+          "step": "In Transit",
+          "date": "2024-11-08",
+          "time": "8:45 AM",
+          "location": "En Route to Distribution Center"
+        }
+      ],
+      "estimatedDeliveryDate": "2024-11-10"
+    }
+  ]
 }
