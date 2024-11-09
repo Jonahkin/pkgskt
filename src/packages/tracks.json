@@ -80,7 +80,7 @@
     }
   ]
 },
-{
+  {
       "productName": "Spell package",
       "trackingID": "UTE658399244",
       "currentLocation": "En-Route",
@@ -94,7 +94,7 @@
         },
         {
           "step": "Processed",
-          "date": "2024-11-08",
+          "date": "2024-11-07",
           "time": "2:30 PM",
           "location": "Warehouse Store"
         },
@@ -113,6 +113,4 @@
       ],
       "estimatedDeliveryDate": "2024-11-10"
     }
-  ],
-}
-
+  ]
