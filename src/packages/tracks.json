@@ -80,9 +80,9 @@
     }
   ]
 },
-  {
+ {
       "productName": "Spell package",
-      "trackingID": "UTE658399244",
+      "trackingID": "QPT548392922",
       "currentLocation": "En-Route",
       "image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg?ga=GA1.2.1414772317.1728213936&semt=ais_hybrid",
       "status": [
@@ -94,7 +94,7 @@
         },
         {
           "step": "Processed",
-          "date": "2024-11-07",
+          "date": "2024-11-08",
           "time": "2:30 PM",
           "location": "Warehouse Store"
         },
@@ -113,3 +113,6 @@
       ],
       "estimatedDeliveryDate": "2024-11-10"
     }
+  ]
+},
+  
