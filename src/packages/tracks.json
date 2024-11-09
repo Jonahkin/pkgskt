@@ -68,6 +68,12 @@
           "date": "2024-10-08",
           "time": "4:00 PM",
           "location": "New York Warehouse"
+        },
+        {
+          "step": "In Transit",
+          "date": "2024-10-07",
+          "time": "8:45 AM",
+          "location": "En Route to Distribution Center"
         }
       ],
       "estimatedDeliveryDate": "2024-11-10"
