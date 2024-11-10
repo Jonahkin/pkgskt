@@ -74,6 +74,12 @@
           "date": "2024-11-08",
           "time": "8:45 AM",
           "location": "En Route to Distribution Center"
+        },
+        {
+          "step": "Delay at Custom Center",
+          "date": "2024-10-15",
+          "time": "2:36 PM",
+          "location": "En Route to Distribution Center"
         }
       ],
       "estimatedDeliveryDate": "2024-11-10"
