@@ -130,25 +130,25 @@
       "status": [
         {
           "step": "Order Received",
-          "date": "2024-11-21",
+          "date": "2024-12-09",
           "time": "01:00 AM",
           "location": "Warehouse Store"
         },
         {
           "step": "Processed",
-          "date": "2024-11-21",
+          "date": "2024-12-09",
           "time": "2:30 AM",
           "location": "Warehouse Store"
         },
         {
           "step": "Shipped",
-          "date": "2024-11-21",
+          "date": "2024-12-09",
           "time": "3:00 AM",
           "location": "New York Warehouse"
         },
         {
           "step": "In Transit",
-          "date": "2024-11-21",
+          "date": "2024-12-09",
           "time": "3:35 AM",
           "location": "En Route to Distribution Center"
         }
