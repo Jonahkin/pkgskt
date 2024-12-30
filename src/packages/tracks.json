@@ -1,154 +1,121 @@
 {
-	"trackingInformation": [
-		{
-			"productName": "Spell package",
-			"trackingID": "FRT437723634",
-			"currentLocation": "En-Route",
-			"image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg?ga=GA1.2.1414772317.1728213936&semt=ais_hybrid",
-			"status": [
-				{
-					"step": "Order Received",
-					"date": "2024-10-02",
-					"time": "10:00 AM",
-					"location": "Warehouse Store"
-				},
-				{
-					"step": "Processed",
-					"date": "2024-10-05",
-					"time": "2:30 PM",
-					"location": "Warehouse Store"
-				},
-				{
-					"step": "Shipped",
-					"date": "2024-10-06",
-					"time": "4:00 PM",
-					"location": "New York Warehouse"
-				},
-				{
-					"step": "In Transit",
-					"date": "2024-10-07",
-					"time": "8:45 AM",
-					"location": "En Route to Distribution Center"
-				},
-				{
-					"step": "Delay at Custom Center",
-					"date": "2024-10-15",
-					"time": "2:36 PM",
-					"location": "En Route to Distribution Center"
-				},
-				{
-					"step": "In Transit",
-					"date": "2024-11-01",
-					"time": "8:00 AM",
-					"location": "En Route to Distribution Center"
-				},
-				{
-					"step": "Destination Center",
-					"date": "2024-11-10",
-					"time": "10:00 AM",
-					"location": "Destination Center"
-				}
-			],
-			"estimatedDeliveryDate": "2024-11-10"
-		},
-		{
-			"productName": "Spell package",
-			"trackingID": "UTE658399244",
-			"currentLocation": "En-Route",
-			"image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg?ga=GA1.2.1414772317.1728213936&semt=ais_hybrid",
-			"status": [
-				{
-					"step": "Order Received",
-					"date": "2024-11-20",
-					"time": "10:00 AM",
-					"location": "Warehouse Store"
-				},
-				{
-					"step": "Processed",
-					"date": "2024-11-21",
-					"time": "2:30 PM",
-					"location": "Warehouse Store"
-				},
-				{
-					"step": "Shipped",
-					"date": "2024-11-21",
-					"time": "4:00 PM",
-					"location": "New York Warehouse"
-				},
-				{
-					"step": "In Transit",
-					"date": "2024-11-21",
-					"time": "8:45 AM",
-					"location": "En Route to Distribution Center"
-				},
-				{
-					"step": "Delay at Custom Center",
-					"date": "2024-11-25",
-					"time": "8:45 AM",
-					"location": "En Route to Distribution Center"
-				},
-				{
-					"step": "En Route to Destination",
-					"date": "2024-12-09",
-					"time": "10:36 AM",
-					"location": "En Route to Distribution Center"
-				}
-			],
-			"estimatedDeliveryDate": "2024-12-30"
-		},
-		{
-			"productName": "Spell package",
-			"trackingID": "QXZ658399244",
-			"currentLocation": "En-Route",
-			"image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg?ga=GA1.2.1414772317.1728213936&semt=ais_hybrid",
-			"status": [
-				{
-					"step": "Order Received",
-					"date": "2024-12-30",
-					"time": "6:00 PM",
-					"location": "Warehouse Store"
-				},
-				{
-					"step": "Processed",
-					"date": "2024-12-30",
-					"time": "6:30 PM",
-					"location": "Warehouse Store"
-				}
-			],
-			"estimatedDeliveryDate": "2025-01-07"
-		}
-	]
-}{
-  "productName": "Amulet & Spell package",
-  "trackingID": "QNH653772344",
-  "currentLocation": "En-Route",
-  "image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg?ga=GA1.2.1414772317.1728213936&semt=ais_hybrid",
-  "status": [
+  "trackingInformation": [
     {
-      "step": "Order Received",
-      "date": "2024-12-16",
-      "time": "10:00 AM",
-      "location": "Warehouse Store"
+      "productName": "Spell package",
+      "trackingID": "FRT437723634",
+      "currentLocation": "En-Route",
+      "image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg?ga=GA1.2.1414772317.1728213936&semt=ais_hybrid",
+      "status": [
+        {
+          "step": "Order Received",
+          "date": "2024-10-02",
+          "time": "10:00 AM",
+          "location": "Warehouse Store"
+        },
+        {
+          "step": "Processed",
+          "date": "2024-10-05",
+          "time": "2:30 PM",
+          "location": "Warehouse Store"
+        },
+        {
+          "step": "Shipped",
+          "date": "2024-10-06",
+          "time": "4:00 PM",
+          "location": "New York Warehouse"
+        },
+        {
+          "step": "In Transit",
+          "date": "2024-10-07",
+          "time": "8:45 AM",
+          "location": "En Route to Distribution Center"
+        },
+        {
+          "step": "Delay at Custom Center",
+          "date": "2024-10-15",
+          "time": "2:36 PM",
+          "location": "En Route to Distribution Center"
+        },
+        {
+          "step": "In Transit",
+          "date": "2024-11-01",
+          "time": "8:00 AM",
+          "location": "En Route to Distribution Center"
+        },
+        {
+          "step": "Destination Center",
+          "date": "2024-11-10",
+          "time": "10:00 AM",
+          "location": "Destination Center"
+        }
+      ],
+      "estimatedDeliveryDate": "2024-11-10"
     },
     {
-      "step": "Processed",
-      "date": "2024-12-16",
-      "time": "2:30 PM",
-      "location": "Warehouse Store"
+      "productName": "Spell package",
+      "trackingID": "UTE658399244",
+      "currentLocation": "En-Route",
+      "image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg?ga=GA1.2.1414772317.1728213936&semt=ais_hybrid",
+      "status": [
+        {
+          "step": "Order Received",
+          "date": "2024-11-20",
+          "time": "10:00 AM",
+          "location": "Warehouse Store"
+        },
+        {
+          "step": "Processed",
+          "date": "2024-11-21",
+          "time": "2:30 PM",
+          "location": "Warehouse Store"
+        },
+        {
+          "step": "Shipped",
+          "date": "2024-11-21",
+          "time": "4:00 PM",
+          "location": "New York Warehouse"
+        },
+        {
+          "step": "In Transit",
+          "date": "2024-11-21",
+          "time": "8:45 AM",
+          "location": "En Route to Distribution Center"
+        },
+        {
+          "step": "Delay at Custom Center",
+          "date": "2024-11-25",
+          "time": "8:45 AM",
+          "location": "En Route to Distribution Center"
+        },
+        {
+          "step": "En Route to Destination",
+          "date": "2024-12-09",
+          "time": "10:36 AM",
+          "location": "En Route to Distribution Center"
+        }
+      ],
+      "estimatedDeliveryDate": "2024-12-30"
     },
     {
-      "step": "Shipped",
-      "date": "2024-12-17",
-      "time": "4:00 PM",
-      "location": "New York Warehouse"
-    },
-    {
-      "step": "In Transit",
-      "date": "2024-12-17",
-      "time": "8:45 AM",
-      "location": "En Route to Distribution Center"
+      "productName": "Spell package",
+      "trackingID": "QXZ658399244",
+      "currentLocation": "En-Route",
+      "image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg?ga=GA1.2.1414772317.1728213936&semt=ais_hybrid",
+      "status": [
+        {
+          "step": "Order Received",
+          "date": "2024-12-30",
+          "time": "6:00 PM",
+          "location": "Warehouse Store"
+        },
+        {
+          "step": "Processed",
+          "date": "2024-12-30",
+          "time": "6:30 PM",
+          "location": "Warehouse Store"
+        }
+      ],
+      "estimatedDeliveryDate": "2025-01-07"
     }
-  ],
-  "estimatedDeliveryDate": "2025-01-19"
+  ]
 }
-
