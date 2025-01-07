@@ -167,13 +167,13 @@
   "status": [
     {
       "step": "Order Received",
-      "date": "2025-01-03",
+      "date": "2025-01-07",
       "time": "2:00 PM",
       "location": "Warehouse Store"
     },
     {
       "step": "Processed",
-      "date": "2025-01-03",
+      "date": "2025-01-07",
       "time": "2:30 PM",
       "location": "Warehouse Store"
     }
