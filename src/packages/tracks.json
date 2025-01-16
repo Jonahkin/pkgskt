@@ -182,6 +182,18 @@
           "date": "2025-01-07",
           "time": "2:30 PM",
           "location": "Warehouse Store"
+        },
+        {
+          "step": "Shipped",
+          "date": "2024-12-17",
+          "time": "4:00 PM",
+          "location": "New York Warehouse"
+        },
+        {
+          "step": "In Transit",
+          "date": "2024-12-17",
+          "time": "8:45 AM",
+          "location": "En Route to Distribution Center"
         }
       ],
       "estimatedDeliveryDate": "2025-01-07"
