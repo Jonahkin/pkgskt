@@ -185,13 +185,13 @@
         },
         {
           "step": "Shipped",
-          "date": "2024-12-17",
+          "date": "2025-01-16",
           "time": "4:00 PM",
           "location": "New York Warehouse"
         },
         {
           "step": "In Transit",
-          "date": "2024-12-17",
+          "date": "2025-01-16",
           "time": "8:45 AM",
           "location": "En Route to Distribution Center"
         }
