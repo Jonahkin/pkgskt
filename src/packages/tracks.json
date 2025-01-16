@@ -194,12 +194,6 @@
           "date": "2025-01-16",
           "time": "8:45 AM",
           "location": "En Route to Distribution Center"
-        },
-       {
-          "step": "In Transit",
-          "date": "2025-01-16",
-          "time": "4:45 PM",
-          "location": "En Route to Distribution Center"
         }
       ],
       "estimatedDeliveryDate": "2025-01-30"
