@@ -186,7 +186,7 @@
         {
           "step": "Shipped",
           "date": "2025-01-16",
-          "time": "4:00 PM",
+          "time": "4:00 AM",
           "location": "New York Warehouse"
         },
         {
@@ -194,9 +194,15 @@
           "date": "2025-01-16",
           "time": "8:45 AM",
           "location": "En Route to Distribution Center"
+        },
+       {
+          "step": "In Transit",
+          "date": "2025-01-16",
+          "time": "4:45 PM",
+          "location": "En Route to Distribution Center"
         }
       ],
-      "estimatedDeliveryDate": "2025-01-07"
+      "estimatedDeliveryDate": "2025-01-30"
     },
     {
       "productName": "Spell Package",
