@@ -34,7 +34,7 @@
           "step": "Delay at Custom Center",
           "date": "2024-10-15",
           "time": "2:36 PM",
-          "location": "En Route to Distribution Center"
+          "location": "Customs Center"
         },
         {
           "step": "In Transit",
@@ -47,12 +47,6 @@
           "date": "2024-11-10",
           "time": "10:00 AM",
           "location": "Destination Center"
-        },
-        {
-          "step": "In Transit",
-          "date": "2025-01-11",
-          "time": "12:00 AM",
-          "location": "En Route to Distribution Center"
         }
       ],
       "estimatedDeliveryDate": "2024-11-10"
@@ -82,16 +76,10 @@
           "location": "New York Warehouse"
         },
         {
-          "step": "In Transit",
-          "date": "2024-11-21",
-          "time": "8:45 AM",
-          "location": "En Route to Distribution Center"
-        },
-        {
           "step": "Delay at Custom Center",
           "date": "2024-11-25",
           "time": "8:45 AM",
-          "location": "En Route to Distribution Center"
+          "location": "Customs Center"
         },
         {
           "step": "En Route to Destination",
@@ -176,126 +164,6 @@
         }
       ],
       "estimatedDeliveryDate": "2025-02-07"
-    },
-    {
-  "productName": "Spell Package",
-  "trackingID": "TYE658399244",
-  "currentLocation": "En Route",
-  "image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg",
-  "status": [
-    {
-      "step": "Order Received",
-      "date": "2025-01-18",
-      "time": "6:00 PM",
-      "location": "Warehouse Store"
-    },
-    {
-      "step": "Processed",
-      "date": "2025-01-19",
-      "time": "6:30 PM",
-      "location": "Warehouse Store"
-    },
-    {
-      "step": "Shipped",
-      "date": "2025-01-21",
-      "time": "1:45 AM",
-      "location": "New York Warehouse"
-    },
-    {
-      "step": "In Transit",
-      "date": "2025-01-21",
-      "time": "4:00 PM",
-      "location": "En Route to Distribution Center"
-    }
-  ],
-  "estimatedDeliveryDate": "2025-02-07"
-   }
-    {
-      "productName": "Spell Package",
-      "trackingID": "BUS658399244",
-      "currentLocation": "En Route",
-      "image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg",
-      "status": [
-        {
-          "step": "Order Received",
-          "date": "2025-01-07",
-          "time": "2:00 PM",
-          "location": "Warehouse Store"
-        },
-        {
-          "step": "Processed",
-          "date": "2025-01-07",
-          "time": "2:30 PM",
-          "location": "Warehouse Store"
-        },
-        {
-          "step": "Shipped",
-          "date": "2025-01-16",
-          "time": "4:00 AM",
-          "location": "New York Warehouse"
-        },
-        {
-          "step": "In Transit",
-          "date": "2025-01-16",
-          "time": "8:45 AM",
-          "location": "En Route to Distribution Center"
-        }
-      ],
-      "estimatedDeliveryDate": "2025-01-30"
-    },
-    {
-      "productName": "Spell Package",
-      "trackingID": "STS658399244",
-      "currentLocation": "En Route",
-      "image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg",
-      "status": [
-        {
-          "step": "Order Received",
-          "date": "2025-01-11",
-          "time": "1:00 AM",
-          "location": "Warehouse Store"
-        },
-        {
-          "step": "Processed",
-          "date": "2025-01-11",
-          "time": "1:30 AM",
-          "location": "Warehouse Store"
-        }
-      ],
-      "estimatedDeliveryDate": "2025-01-07"
-    },
-    {
-      "productName": "Amulet & Spell Package",
-      "trackingID": "QNH653772344",
-      "currentLocation": "En Route",
-      "image": "https://img.freepik.com/free-photo/beautiful-old-uneven-wooden-table-with-two-blank-similar-cardboard-boxes-with-covers-against-white-wall-background_346278-1618.jpg",
-      "status": [
-        {
-          "step": "Order Received",
-          "date": "2024-12-16",
-          "time": "10:00 AM",
-          "location": "Warehouse Store"
-        },
-        {
-          "step": "Processed",
-          "date": "2024-12-16",
-          "time": "2:30 PM",
-          "location": "Warehouse Store"
-        },
-        {
-          "step": "Shipped",
-          "date": "2024-12-17",
-          "time": "4:00 PM",
-          "location": "New York Warehouse"
-        },
-        {
-          "step": "In Transit",
-          "date": "2024-12-17",
-          "time": "8:45 AM",
-          "location": "En Route to Distribution Center"
-        }
-      ],
-      "estimatedDeliveryDate": "2025-01-19"
     }
   ]
 }
