@@ -311,9 +311,15 @@
           "date": "2024-12-17",
           "time": "8:45 AM",
           "location": "En Route to Distribution Center"
+        },
+        {
+          "step": "Delay at Custom Center",
+          "date": "2025-02-06",
+          "time": "2:36 PM",
+          "location": "En Route to Distribution Center"
         }
       ],
-      "estimatedDeliveryDate": "2025-01-19"
+      "estimatedDeliveryDate": "2025-02-12"
     }
   ]
 }
