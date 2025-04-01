@@ -59,9 +59,15 @@
           "date": "2025-02-07",
           "time": "2:36 PM",
           "location": "En Route to Distribution Center"
+        },
+        {
+          "step": "Delivered",
+          "date": "2025-04-01",
+          "time": "2:36 PM",
+          "location": "En Route to Distribution Center"
         }
       ],
-      "estimatedDeliveryDate": "2025-02-07"
+      "estimatedDeliveryDate": "2025-04-01"
     },
     {
       "productName": "Spell Package",
