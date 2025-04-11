@@ -105,14 +105,26 @@
           "time": "8:45 AM",
           "location": "En Route to Distribution Center"
         },
-        {
+         {
           "step": "En Route to Destination",
-          "date": "2025-03-30",
-          "time": "10:36 AM",
+          "date": "2025-04-07",
+          "time": "4:25 AM",
           "location": "En Route to Distribution Center"
+        },
+        {
+          "step": "Storage Unit",
+          "date": "2025-04-07",
+          "time": "7:50 AM",
+          "location": "En Route to Distribution Center"
+        },
+        {
+          "step": "En Route to Headquarters",
+          "date": "2025-04-11",
+          "time": "5:36 AM",
+          "location": "En Route to Center"
         }
       ],
-      "estimatedDeliveryDate": "2024-12-30"
+      "estimatedDeliveryDate": "2025-04-17"
     },
     {
       "productName": "Spell Package",
